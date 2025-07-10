@@ -1,0 +1,14 @@
+{
+    "name_for_human": "Clipboard History MCP",
+    "name_for_model": "clipboard_mcp",
+    "description_for_human": "A clipboard history manager that allows you to store and retrieve clipboard content using the Model Context Protocol.",
+    "description_for_model": "A clipboard history manager that allows you to store and retrieve clipboard",
+    "api": {
+        "type": "openapi",
+        "url": "http://localhost:8272/openapi.yaml",
+        "is_user_authenticated": false
+    },
+    "auth": {
+        "type": "noen"
+    }
+}
