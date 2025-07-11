@@ -1,25 +1,34 @@
 {
   "name": "parcel-mcp",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "parcel-mcp": "./index.js"
+    "parcel-mcp": "./index.mjs"
   },
   "scripts": {
     "build": "tsc && chmod 755 index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamfiro/clipboard-mcp.git"
+    "url": "git+https://github.com/iamfiro/parcel-tracking-mcp.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "mcp",
+    "parcel",
+    "delivery",
+    "cli"
+  ],
+  "author": {
+    "name": "Cho Sungju",
+    "email": "hello@devfiro.com",
+    "url": "https://devfiro.com"
+  },
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iamfiro/clipboard-mcp/issues"
+    "url": "https://github.com/iamfiro/parcel-tracking-mcp/issues"
   },
-  "homepage": "https://github.com/iamfiro/clipboard-mcp#readme",
+  "homepage": "https://github.com/iamfiro/parcel-tracking-mcp#readme",
   "description": "",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.15.1",
