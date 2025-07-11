@@ -1,6 +1,6 @@
 {
   "name": "parcel-mcp",
-  "version": "1.0.4",
+  "version": "1.1.5",
   "main": "index.js",
   "type": "module",
   "bin": {
@@ -32,7 +32,9 @@
   "description": "",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.15.1",
+    "csv-parse": "^6.0.0",
     "dotenv": "^17.2.0",
+    "fuse.js": "^7.1.0",
     "yargs": "^18.0.0",
     "zod": "^3.25.76"
   },
