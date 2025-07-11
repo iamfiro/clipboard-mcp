@@ -1,25 +1,38 @@
 {
   "name": "parcel-mcp",
   "version": "1.0.0",
-  "description": "MCP tool that retrieves the current shipment status for a given tracking number",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "parcel-mcp": "./index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc && chmod 755 index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iamfiro/clipboard-mcp.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/iamfiro/clipboard-mcp/issues"
   },
   "homepage": "https://github.com/iamfiro/clipboard-mcp#readme",
+  "description": "",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.15.1",
     "dotenv": "^17.2.0",
+    "yargs": "^18.0.0",
     "zod": "^3.25.76"
-  }
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "@types/yargs": "^17.0.33",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "./"
+  ]
 }
