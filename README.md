@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server for tracking parcel deliveries using the 17track.net API.
 
+<a href="https://glama.ai/mcp/servers/@iamfiro/parcel-tracking-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@iamfiro/parcel-tracking-mcp/badge" alt="Parcel Tracking Server MCP server" />
+</a>
+
 ## Features
 
 - Track parcel deliveries from various carriers
